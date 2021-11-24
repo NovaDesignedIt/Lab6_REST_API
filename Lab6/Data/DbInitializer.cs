@@ -1,10 +1,12 @@
-﻿using Lab6.Models;
+﻿using Lab6.Data;
+using Lab6.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Lab4.Data
+namespace Lab6.Data
 {
     public static class DbInitializer
     {
